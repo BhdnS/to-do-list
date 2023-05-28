@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css" type="text/css">
+    <link rel="shortcut icon" href="images/todo-list-50.png" sizes="50x50" type="image/png">
+    <link rel="shortcut icon" href="images/todo-list-100.png" sizes="100x100" type="image/png">
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="theme" class="light"></div>
+      <div class="container">
+        <header class="header">
+          <h1 class="header__title">To-Do List</h1>
+        </header>
+        <main class="main">
+          <section class="section">
+              <h2 class="section__title">Number of tasks for today:</h2>
+            <ul class="list">
+              <li class="list__item">
+                <span class="list__text">Drink coffee and smile)</span>
+                <div class="list__box">
+                  <button class="list__btn">Delete</button>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </main>
+        <footer class="footer">
+          <input type="text" autofocus placeholder="What needs to be done?" class="footer__input" />
+          <button type="button" class="footer__btn btn">Add</button>
+        </footer>
+      </div>
+    </div>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
